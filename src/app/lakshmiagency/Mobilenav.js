@@ -156,7 +156,7 @@ export function Mobilenav() {
     </Disclosure>
   
       <div className='text-center  bg-[#004b71] '>
-      <form className='w-auto  mx-4 p-2'>   
+      <form className='w-auto  mx-4 -mt-2 pb-3'>   
                     <div class="relative">
                         <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                             <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
@@ -164,6 +164,15 @@ export function Mobilenav() {
                         <input type="search" id="default-search" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search for any products" required/>
                     </div>
                 </form>
+      </div>
+      <div className=' bg-[#2d3537] text-white p-2 flex'>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+</svg>
+
+       <h1 className='mx-2'>Delivering to Trichy  - <span>622023</span></h1>
+       <a href='#' className='mr-2 text-yellow-300 underline'>change</a>
       </div>
 
     </div>

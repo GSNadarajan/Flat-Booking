@@ -5,12 +5,16 @@ import './globals.css';
 // import { Note } from './home/note';
 // import { Footer } from './footer';
 import { Navbar } from './lakshmiagency/Navbar';
+import { Mobilenav } from './lakshmiagency/Mobilenav';
+
+
 
 export default function RootLayout() {
   return (
     <html lang="en">
       <body>
         <Navbar/>
+        <Mobilenav/>
         {/* <Home/>
         <About/>
         <Note/>

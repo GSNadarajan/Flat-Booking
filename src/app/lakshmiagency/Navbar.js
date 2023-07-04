@@ -198,7 +198,7 @@ export function Navbar() {
 
   <hr/>
      <div className='hidden md:block'>
-        <div class=" max-w-9xl p-2 flex flex-wrap items-center justify-between mx-auto ">
+        <div class=" max-w-2 p-2 flex flex-wrap items-center justify-between mx-auto ">
                <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {categories.map((item) => (
@@ -222,7 +222,7 @@ export function Navbar() {
                 </div>
                 <div class="flex md:order-2 md:mr-8 lg:mr-12  ">
                     <div class="relative hidden md:block">
-                      <button className='border border-yellow-300 text-yellow-300 p-1 hover:bg-yellow-300 hover:text-white'>Become a seller</button>
+                      <button className='border border-yellow-300 text-yellow-300 p-3 hover:bg-yellow-300 hover:text-white'>Become a seller</button>
                     </div>
                 
                   </div>

@@ -39,12 +39,12 @@ export function Navbar() {
       }
   
   return (
-    <div className="hidden md:block bg-[#004b71]">
+    <div className="hidden md:block bg-[#004b71] md:overflow-x-scroll lg:overflow-none">
 
     <Disclosure as="nav" className="">
       {({ open }) => (
         <>
-         <div className="mx-auto max-w-13xl px-1 sm:px-6 lg:px-8">
+         <div className="mx-auto max-w-13xl px-1 sm:px-6 lg:px-8 ">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -108,7 +108,7 @@ export function Navbar() {
 
                 </div>
                 
-                <div className='md:flex m-3 hidden md:ml-28'>
+                <div className='md:flex m-3 hidden '>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                         className="w-6 h-6 mr-2  text-white">
                         <path strokeLinecap="round" strokeLinejoin="round"

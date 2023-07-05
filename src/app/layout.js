@@ -2,6 +2,10 @@ import './globals.css';
 import { Navbar } from './lakshmiagency/Navbar';
 import { Mobilenav } from './lakshmiagency/Mobilenav';
 import { Mobilefooter } from './lakshmiagency/Mobilefooter';
+import { Dashboard } from './lakshmiagency/Dashboard';
+import { Card} from './lakshmiagency/Card';
+
+
 
 
 
@@ -12,6 +16,7 @@ export default function RootLayout() {
       <body>
         <Navbar/>
         <Mobilenav/>
+        <Dashboard/>
         <Mobilefooter/>
       </body> 
     </html>

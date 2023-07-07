@@ -39,7 +39,7 @@ export function Navbar() {
       }
   
   return (
-    <div className="hidden md:block bg-[#004b71] md:overflow-x-scroll lg:overflow-none">
+    <div className="hidden md:block bg-[#004b71] lg:overflow-none">
 
     <Disclosure as="nav" className="">
       {({ open }) => (

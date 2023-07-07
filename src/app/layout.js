@@ -17,6 +17,7 @@ export default function RootLayout() {
         <Navbar/>
         <Mobilenav/>
         <Dashboard/>
+        <Card/>
         <Mobilefooter/>
       </body> 
     </html>

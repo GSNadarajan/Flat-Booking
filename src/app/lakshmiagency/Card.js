@@ -1,94 +1,85 @@
 'use client'
 
- export function Card(){
-    return(
+function Card1() {
+    return (
         <>
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4">
+            <div className="container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 lg:gap-16 mx-4 md:mt-7 md:mx-16">
 
-        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
-        <div className="w-full  p-8 text-center">
-           <div className="flex ">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-9 h-9 text-blue-500 font-extrabold">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-              </svg>
+             <div className=" p-6 mx-2 w-full bg-[#fef9f0] rounded-2xl">
+               <div className="text-center flex w-44">
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-center  ml-1 md:ml-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+               </svg>
+          
+               <span className="ml-7 text-[#c0cacd]">Orders</span>
+                </div>
+                <span className="md:ml-20 mt-3 ml-14 font-bold md:text-2xl">1500</span>
+                <span className="md:-mr-28 md:mt-16 font-bold text-[#00dd3b] lg:mx-1">12.23%</span>
 
-              <h1 className="text-1xl text-left ml-2 mt-1 font-bold">Orders </h1>  
-           </div>
-        </div>
+              </div>
 
-        <div class="px-3 py-0 ml-6 flex">
-          <p class="text-black mb-1">1500</p>
-          <p class="text-black mb-1 ml-4">1500</p>
+              <div className=" p-6 mx-2 w-full bg-[#ecf8e7] rounded-2xl">
+               <div className="text-center flex w-44">
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-center  ml-1 md:ml-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+               </svg>
+          
+               <span className="ml-7 text-[#c0cacd]">Quote</span>
+                </div>
+                <span className="md:ml-20 mt-3 ml-14 font-bold md:text-2xl">150</span>
+                <span className="md:-mr-28 md:mt-16 font-bold text-[#00dd3b] lg:mx-1">12.23%</span>
 
-        </div>
-    </div>
+              </div>
 
+              <div className=" p-6 mx-2 w-full bg-[#e4eef1] rounded-2xl">
+               <div className="text-center flex w-44">
+                 
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-center  ml-1 md:ml-6 ">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                    </svg>
+                 
+          
+               <span className="ml-7 text-[#c0cacd]">Saving</span>
+                </div>
+                <span className="md:ml-20 mt-3 ml-14 font-bold md:text-2xl ">₹30,000</span>
+                <span className="md:-mr-28 md:mt-16 font-bold text-[#d63143] lg:mx-1">12.3%</span>
 
-    
-<div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    
-    <div className="flex">
-        <div className="">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
-            </svg>
-        </div>
+              </div>
 
-        <div className="ml-4">
-           <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white float-right">Orders</h5>
-           <p class=" font-normal text-gray-500 dark:text-gray-400">1500</p>
-            <p class=" font-normal text-gray-500 dark:text-gray-400">1500</p>
-        </div>
-        
-    </div>
-   
-    <div className="flex">
-            
-    </div>
+              <div className=" p-4 md:p-6 mx-2  w-full bg-[#fcece4] rounded-2xl mt-3">
+               <div className="text-center flex w-44">
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-center  -ml-1 md:ml-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+               </svg>
+          
+               <span className="ml-2 md:ml-7 text-[#c0cacd]">Purchased</span>
+                </div>
+                <span className=" md:ml-20 mt-3 ml-8 font-bold md:text-2xl text--1xl">₹1,30,000</span>
+                <span className="md:-mr-28 md:mt-16 font-bold text-[#d63143] lg:mx-1">12.23%</span>
 
+              </div>
 
- 
-</div>
-
-
-
-    <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
-        <div className="w-full  p-8 text-center">
-           <div className="flex ">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-9 h-9 text-blue-500 font-extrabold">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-              </svg>
-
-              <h1 className="text-1xl text-left ml-2 mt-1 font-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, facere </h1>  
-           </div>
-        </div>
-
-        <div class="px-10 py-0 ml-6">
-          <p class="text-black mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-        </div>
-    </div>
-
-
-    <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
-        <div className="w-full  p-8 text-center">
-           <div className="flex ">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-9 h-9 text-blue-500 font-extrabold">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-              </svg>
-
-              <h1 className="text-1xl text-left ml-2 mt-1 font-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, facere </h1>  
-           </div>
-        </div>
-
-        <div class="px-10 py-0 ml-6">
-          <p class="text-black mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-        </div>
-    </div>
-
-
-             
-
-        </div>
+            </div>
         </>
     )
- }
+}
+
+export function Card(){
+    return (
+        <>
+            <div className="p-5 grid grid-cols-2 gap-2">
+                <div className="bg-orange-300">
+                      <p>
+                        Order
+                      </p>
+                </div>
+
+                <div className="bg-orange-300">
+                      <p>
+                        Order
+                      </p>
+                </div>
+            </div>
+        </>
+    )
+}

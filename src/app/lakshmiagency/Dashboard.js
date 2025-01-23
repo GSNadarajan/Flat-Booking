@@ -51,6 +51,30 @@ export function Dashboard() {
               Option 3
             </a>
           </li>
+          <li>
+            <a
+              href="#"
+              className="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white"
+            >
+              Option 2
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white"
+            >
+              Option 2
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white"
+            >
+              Option 2
+            </a>
+          </li>
         </ul>
       )}
     </div>
